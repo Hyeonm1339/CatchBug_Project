@@ -121,7 +121,7 @@
 
     <select id="getMember" resultType="member"
             parameterType="member">
-        select * from member where id=#{id} <!-- and pass=#{pass} -->
+        select * from member where id=#{id}
     </select>
 
 

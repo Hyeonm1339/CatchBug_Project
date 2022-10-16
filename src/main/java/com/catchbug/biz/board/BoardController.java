@@ -86,7 +86,6 @@ public class BoardController {
 		model.addAttribute("endPage", endPageNum); // 끝 페이지 정보를 전달
 		return "board/free_board";
 	}
-
 	// 자유게시판 상세보기 이동
 	@RequestMapping("/freeBoardDetail.do")
 	public String FreeBoardDetail(int board_no, Model model) {
